@@ -1,0 +1,10 @@
+[package]
+name = "wasm-tests"
+version = "0.1.0"
+authors = ["Sharad Chand <sharad.d.chand@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen-test = "0.2.17"
